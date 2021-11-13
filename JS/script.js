@@ -28,7 +28,7 @@ navItems.slice(1).forEach(({ category, color }) => {
     // specify the category, color according to the navigation item
     // use the latest date to find an earlier date instance
     // use the filler text for the title
-    const date = new Date(latestDate - (1000 * 60 * 60 * 24) * (Math.ceil(Math.random() * 100)));
+    const date = new Date((3000 * 60 * 60 * 24) * (Math.ceil(Math.random() * 4870)));
     data.push({
       category,
       color,
